@@ -1,0 +1,19 @@
+{
+    "name": "Flutter",
+    "manifest_version": 2,
+    "version": "1.0",
+    "description": "I Love Flutter",
+    "browser_action": {
+        "default_icon": "1.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "http://10.100.139.146:6161/newadmin2/index.html*"
+            ],
+            "js": [
+                "script.js"
+            ]
+        }
+    ]
+}
