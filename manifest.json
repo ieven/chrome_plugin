@@ -9,7 +9,7 @@
     "content_scripts": [
         {
             "matches": [
-                "http://10.100.139.146:6161/newadmin2/index.html*"
+                "http://*"
             ],
             "js": [
                 "script.js"
